@@ -40,6 +40,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
   _changeText() {
+
     setState(() {
       if (msg.startsWith('F')) {
         msg = 'We have learned FlutterRaised button example.';
